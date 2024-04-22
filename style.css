@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+    
+    
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(218, 218, 218));
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.container{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 5px solid gray;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+ .image{
+    width: 120px;
+    height: 130px;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+
+#images {
+    font-size: 15px;
+    padding: 5px 20px;
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.tituloh1{
+    font-family: "Teko", sans-serif;
+    padding: 10px 2px 2px 20px;
+    margin: 5px 2px 2px 30px;
+    font-size: 60px;
+    
+    
+}
+
+
+.paragrafohead{
+    padding: 0px 2px 2px 20px;
+    margin: 0px 2px 2px 30px;
+    font-size: 25px;
+    font-family: "Teko", sans-serif;
+}
+
+.box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    padding-top: 20px;
+    border-radius: 100px;
+    width: 100%;
+    
+    
+}
+ 
+.legendcss{
+    font-size: 20px;    
+    padding: 7px;
+    
+}
+
+
+.fieldsetcss{
+    padding: 10px 2px 2px 20px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(212, 212, 212));
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    
+}
+
+.inputUser{
+    font-size: 15px;
+    padding: 5px 20px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.inputsend{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+
+#submit {
+    
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px ;
+    font-size: 16px;
+
+}
+
+.termos{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 115px;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.termos:hover{
+    
+    color: red;
+    border: 2px solid red;
+}
+
+
+.termosuso{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 115px;
+    height: 30px;
+    padding: 5px;
+}
+
+.termosuso:hover{
+    color: red;
+    border: 2px solid red;
+}
+
+
+.inputsend .termosuso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inputsend .termosuso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inputsend .termos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#submit:hover{
+    color: red;
+    border: 2px solid red;
+}
+
+.inputsend #resetar{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 115px;
+    height: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#resetar:hover {
+    color: red;
+    border: 2px solid red;
+}
